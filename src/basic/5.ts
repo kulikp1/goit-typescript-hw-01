@@ -5,10 +5,8 @@ enum DayOfWeek {
   Thursday,
   Friday,
   Saturday,
-  Sunday
+  Sunday,
 }
 
-
-const isWeekend = (day: DayOfWeek): boolean => {
-    DayOfWeek[day] === 'Saturday' || DayOfWeek[day] === 'Sunday';
-}
+const isWeekend = (day: DayOfWeek): boolean =>
+  DayOfWeek[day] === 'Saturday' || DayOfWeek[day] === 'Sunday';
